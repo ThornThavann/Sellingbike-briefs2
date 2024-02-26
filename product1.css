@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
+body {
+  width: 100%;
+  height: 100vb;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vb;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-home {
+  width: 100%;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.logo {
+  width: 15%;
+  height: 70px;
+  background-color: rgb(0, 0, 0);
+}
+
+.logo p {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.menu-bar {
+  width: 80%;
+  height: 70px;
+  background-color: rgb(0, 0, 0);
+}
+.menu-bar ul {
+  display: flex;
+  padding: 15px;
+  list-style-type: none;
+  justify-content: center;
+  gap: 8%;
+  margin-left: 55%;
+}
+.menu-bar ul li {
+  font-size: 25px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.menu-bar ul li a:hover {
+  color: dodgerblue;
+  background-image: linear-gradient(skyblue, purple);
+  font-family: 'Times New Roman', Times, serif;
+}
+.content {
+  width: 90%;
+  padding: 20px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+}
+.Road {
+  font-size: 50px;
+  font-weight: bold;
+  width: 60%;
+}
+.view {
+  width: 80%;
+  text-align: end;
+}
+.box-1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: auto;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+
+.container-2 {
+  width: 100%;
+  padding-top: 15px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.iteam {
+  width: 300px;
+  height: 350px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  border-radius: 30px;
+}
+.iteam {
+  width: 300px;
+  height: 350px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  border-radius: 30px;
+}
+.product-image {
+  width: 300px;
+  height: 350;
+}
+.product-image img {
+  width: 100%;
+  object-fit: cover;
+  transition: 0.4s;
+}
+.product-image img {
+  width: 100%;
+}
+.product-image img:hover {
+  transform: scale(1.1);
+}
+.product {
+  width: 100%;
+  height: auto;
+  display: flex;
+
+  line-height: 1.5;
+  padding: 20px;
+}
+.info-1 {
+  font-size: 17px;
+  color: black;
+  text-align: left;
+  padding-top: 20px;
+}
+.info-2 {
+  font-size: 18px;
+  color: black;
+  text-align: right;
+  padding-top: 45px;
+}
+@media (max-width: 712px) {
+  .menu-bar ul li a{
+    font-size: 15px;
+  }
+
+  .box-1 p {
+    font-size: 20px;
+    width: 400px;
+  }
+  .Road {
+    font-size: 35px;
+  }
+}
+@media (max-width: 712px) {
+  .iteam:nth-child(n + 2) {
+    display: none;
+  }
+  .Road {
+    font-size: 30px;
+
+  }
+  .view{
+    margin-top: -40px;
+  }
+}
+.footer {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: black;
+  margin: auto;
+}
+.img-box {
+  background-image: url(Rectangle\ 2\(1\).svg);
+  background-position: center;
+  height: 1000px;
+  width: 100%;
+  object-fit: cover;
+
+  background-size: cover;
+}
+.txt {
+  width: 40%;
+  height: 60%;
+  margin-left: 100px;
+  color: white;
+  align-items: center;
+  display: flex;
+  font-size: 25px;
+}
+.img-box button {
+  width: 250px;
+  height: 55px;
+  background-color: white;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.txt2 {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.txt2 p {
+  color: white;
+  font-size: 20px;
+}
+.txt3 {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.txt3 p {
+  color: white;
+  font-size: 20px;
+}
+@media all and (max-width: 712px){
+  .txt1 h1{
+  font-size: 3rem;
+  margin-left: -30px;
+  width: 100%;
+  display: block;
+  width: 400px;
+  margin-top: 250px;
+  
+
+  }
+  .txt1 p{
+    font-size: 1.5rem;
+    margin-left: -30px;
+    margin-top: 40px;
+  }
+  .img-box button{
+    margin-left: -30px;
+    width: 200px;
+    height: 50px;
+  }
+
+}
+@media all and (max-width: 712px) {
+  .txt2{
+    flex-direction: column;
+  }
+  .txt3{
+    margin-top: 100px;
+  }
+
+}
+@media all and (max-width: 712px){
+  .txt1 button{
+    font-size: 15px;
+    height: 70px;
+    width: 200px;
+    margin-top: 150px;
+
+  }
+}
+
